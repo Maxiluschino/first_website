@@ -451,7 +451,7 @@
     top: 0;
     bottom: 0;
     width: 153px;
-    height: 110vh;
+    height: 140vh;
     background-color: #ea5d21;
     display: none;
     align-items: center;
@@ -522,7 +522,7 @@
   .about-button {
     position: absolute;
     right: 0px;
-    top: 220px;
+    top: 200px;
     width: 153px;
     display: none;
     z-index: 1;
@@ -590,5 +590,12 @@
   }
   .footer {
     z-index: 1;
+  }
+  .modal {
+    width: 100%;
+    z-index: 2;
+  }
+  .modal-form {
+    width: 70%;
   }
 }

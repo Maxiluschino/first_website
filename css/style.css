@@ -574,4 +574,11 @@
     width: 95%;
     margin: 0 5px;
   }
+  .modal {
+    width: 100%;
+    z-index: 2;
+  }
+  .modal-form {
+    width: 70%;
+  }
 }
