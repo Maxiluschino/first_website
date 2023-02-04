@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/contacts_style.css" />
+    <script async src="../JS/script.js"></script>
+    <script async src="../JS/burger-button.js"></script>
+    <script async src="../JS/scrollUpArrow.js"></script>
+    <script async src="../JS/overlay_esc.js"></script>
+  </head>
+
+  <!--header srart-->
+
+  <body class="page">
+    <header class="header">
+      <a href="../pages/index.html" class="about-img-link">
+        <img class="about-img" src="../image/kvadrat.svg" alt="квадрат" />
+      </a>
+
+      <nav class="list">
+        <ul class="menu-list">
+          <li><a class="menu-link" href="../pages/index.html"> Главная </a></li>
+          <li>
+            <a class="menu-link" href="../pages/page-students.html">
+              Студенты
+            </a>
+          </li>
+          <li>
+            <a class="menu-link" href="../pages/about_studying.html">
+              О курсе
+            </a>
+          </li>
+          <li>
+            <a class="menu-link" href="../pages/contacts.html"> Контакты </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="about-button">Войти</button>
+      <button class="burger-button">
+        <img
+          class="burger-white"
+          src="../image/burger-button.svg"
+          alt="knopka-burger"
+        />
+      </button>
+    </header>
+
+    <!--header end-->
+
+    <!--main start-->
+
+    <main class="content">
+      <h1 class="title-find-us">Как нас найти 🗺️️</h1>
+
+      <div class="map">
+        <iframe
+          class="google-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511634.709663288!2d29.53428892170745!3d59.939225908783754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1674800724590!5m2!1sru!2sru"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <h2 class="our-contacts">Наши контакты</h2>
+      <p class="adress">
+        Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000 Тел: +7 (812)
+        555-55-55
+      </p>
+    </main>
+
+    <!--main end-->
+
+    <!-- footer start -->
+
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy;
+        <a class="innop-link" href="../pages/index.html">учебный центр</a>
+      </p>
+      <button class="modal-up-arrow">
+        <img class="up-button" src="../image/up-arrow_white.svg" alt="вверх" />
+      </button>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- modal start -->
+
+    <div class="modal">
+      <form class="modal-form">
+        <h3 class="form-title">Войти на сайт</h3>
+        <input class="modal-input" type="text" placeholder="Логин" required />
+        <input
+          class="modal-input"
+          type="password"
+          placeholder="Пароль"
+          required
+        />
+        <button class="modal-button">Войти</button>
+        <button class="modal-close-button">
+          <img
+            class="close-button"
+            src="../image/cross-icon.svg"
+            alt="крестик"
+          />
+        </button>
+      </form>
+    </div>
+
+    <!-- modal end -->
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

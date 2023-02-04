@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script async src="../JS/script.js"></script>
+    <script async src="../JS/burger-button.js"></script>
+    <script async src="../JS/scrollUpArrow.js"></script>
+    <script async src="../JS/overlay_esc.js"></script>
+    <script async src="../JS/server.js"></script>
+  </head>
+
+  <!--header srart-->
+
+  <body class="page">
+    <header class="header">
+      <a href="../pages/index.html" class="about-img-link">
+        <img class="about-img" src="../image/kvadrat.svg" alt="квадрат" />
+      </a>
+
+      <nav class="list">
+        <ul class="menu-list">
+          <li><a class="menu-link" href="../pages/index.html"> Главная </a></li>
+          <li>
+            <a class="menu-link" href="../pages/page-students.html">
+              Студенты
+            </a>
+          </li>
+          <li>
+            <a class="menu-link" href="../pages/about_studying.html">
+              О курсе
+            </a>
+          </li>
+          <li>
+            <a class="menu-link" href="../pages/contacts.html"> Контакты </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="about-button">Войти</button>
+      <button class="burger-button">
+        <img
+          class="burger-white"
+          src="../image/burger-button.svg"
+          alt="knopka-burger"
+        />
+      </button>
+    </header>
+
+    <!--header end-->
+
+    <!--main start-->
+
+    <main class="content">
+      <h1 class="welcome">
+        Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!
+      </h1>
+      <img class="photo" src="../image/photo.jpg" alt="фото-в-классе" />
+
+      <div class="head-block">
+        <div>
+          <h2 class="head-text">Для кого этот курс</h2>
+
+          <p class="paragraph">
+            Этот курс рассчитан на новичков, которые только начинают знакомство
+            с веб-разработкой. В начале курса вы узнаете о том, как устроен
+            Интернет&nbsp;и веб-сайты.
+          </p>
+          <p class="paragraph2">
+            Для обучения необходимо только владеть компьютерной грамотностью
+            (пользоваться браузером, создавать папки и файлы, устанавливать
+            программы).
+          </p>
+
+          <h2 class="head-text">Чему вы научитесь</h2>
+
+          <p class="paragraph">
+            На этом курсе вы узнаете, как устроены веб-сайты и как создавать их
+            с нуля. Изучите основы языков
+            <span class="HTML_CSS_JAVA">HTML</span>,
+            <span class="HTML_CSS_JAVA">CSS</span> и немного
+            <span class="HTML_CSS_JAVA">JavaScript</span>. Мы вместе сверстаем
+            сайт нашей группы по этому макету. А затем вы
+            <span class="sami">сами</span>
+            сверстаете свои личные странички в качестве домашнего задания и мы
+            выложим все это на сервер.
+          </p>
+        </div>
+
+        <blockquote class="learning-title">
+          <p class="learning-together">Учимся вместе!</p>
+        </blockquote>
+      </div>
+    </main>
+
+    <!--main end-->
+
+    <!-- footer start -->
+
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy;
+        <a class="innop-link" href="../pages/index.html">учебный центр</a>
+      </p>
+      <button class="modal-up-arrow">
+        <img class="up-button" src="../image/up-arrow_white.svg" alt="вверх" />
+      </button>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- modal start -->
+
+    <div class="modal">
+      <form class="modal-form">
+        <h3 class="form-title">Войти на сайт</h3>
+        <input class="modal-input" type="text" placeholder="Логин" required />
+        <input
+          class="modal-input"
+          type="password"
+          placeholder="Пароль"
+          required
+        />
+        <button class="modal-button">Войти</button>
+        <button class="modal-close-button">
+          <img
+            class="close-button"
+            src="../image/cross-icon.svg"
+            alt="крестик"
+          />
+        </button>
+      </form>
+    </div>
+
+    <!-- modal end -->
+  </body>
+</html>
