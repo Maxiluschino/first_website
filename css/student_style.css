@@ -458,6 +458,12 @@
     justify-content: space-between;
     z-index: 1;
   }
+  .rectangle-name {
+    margin-top: 280px;
+    font-weight: 80;
+    font-size: 7px;
+    line-height: 10px;
+  }
 
   .menu-link {
     padding: 15px 0;
@@ -557,13 +563,6 @@
     font-size: 21px;
     line-height: 26px;
     text-align: center;
-  }
-
-  .rectangle-name {
-    margin-top: 280px;
-    font-weight: 80;
-    font-size: 10px;
-    line-height: 10px;
   }
 
   .oval {
