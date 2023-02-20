@@ -344,6 +344,9 @@
     font-weight: 100;
     font-size: 15px;
   }
+  .content {
+    padding: 0 50px;
+  }
   .modal-form {
     max-width: 350px;
     height: 318px;
@@ -468,10 +471,13 @@
     color: #ffffff;
   }
   .video {
-    margin: 0;
-
-    width: 100%;
+    width: 90%;
+    height: 80%;
   }
+  .title-video {
+    font-size: 15px;
+  }
+
   .modal {
     width: 100%;
     z-index: 2;

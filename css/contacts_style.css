@@ -505,8 +505,7 @@
 
   .content {
     padding: 5px;
-    display: flex;
-    margin: 0;
+    width: 55vh;
   }
 
   .title-find-us {
@@ -527,10 +526,11 @@
 
   .adress {
     margin-left: 300px;
-    width: 300px;
+    width: 200px;
     font-weight: 100;
     font-size: 15px;
     line-height: 15px;
+    text-align: center;
   }
   .modal {
     width: 100%;
